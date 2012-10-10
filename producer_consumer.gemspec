@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = ProducerConsumer::VERSION
   gem.authors       = ["Alex Gibbons"]
   gem.email         = ["alex.gibbons@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Threaded producer/consumer model. Useful when you have an expensive data producer, such as fetching data over many http connections, and an expensive consumer, such as ingesting into a database.}
+  gem.summary       = %q{Simple producer/consumer model.}
+  gem.homepage      = "https://github.com/alexgb/producer_consumer"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }

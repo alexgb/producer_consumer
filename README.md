@@ -1,6 +1,6 @@
 # ProducerConsumer
 
-Threaded [producer/consumer](http://en.wikipedia.org/wiki/Producer-consumer_problem) model. Useful when you have an expense data producer, such as fetching data over many http connections, and an expensive consumer, such as ingesting into a database.
+Threaded [producer/consumer](http://en.wikipedia.org/wiki/Producer-consumer_problem) model. Useful when you have an expensive data producer, such as fetching data over many http connections, and an expensive consumer, such as ingesting into a database.
 
 ## Installation
 
