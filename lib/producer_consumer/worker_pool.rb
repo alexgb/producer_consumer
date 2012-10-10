@@ -1,6 +1,5 @@
 module ProducerConsumer
   class WorkerPool
-    include Enumerable
     attr_reader :output_queue
 
     def initialize(input, number_of_threads=1)
